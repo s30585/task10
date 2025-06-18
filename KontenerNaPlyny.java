@@ -26,4 +26,9 @@ public class KontenerNaPlyny extends Kontener implements IHazardNotifier{
     public void hazardNotify(String wiadomosc) {
         System.out.println("Alert!" + wiadomosc);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
