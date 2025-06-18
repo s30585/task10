@@ -22,4 +22,9 @@ public class KontenerChlodniczy extends Kontener {
     public void oproznij() {
         masaLadunku = 0;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
