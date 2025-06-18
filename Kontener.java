@@ -70,4 +70,16 @@ public abstract class Kontener {
         wagaCalowita = getMasaLadunku() + getWagaWlasna();
         return wagaCalowita;
     }
+
+    @Override
+    public String toString() {
+        return "Kontener{" +
+                "masaLadunku=" + masaLadunku +
+                ", wysokosc=" + wysokosc +
+                ", wagaWlasna=" + wagaWlasna +
+                ", glebokosc=" + glebokosc +
+                ", numerSeryjny='" + numerSeryjny + '\'' +
+                ", maksymalnaLadownosc=" + maksymalnaLadownosc +
+                '}';
+    }
 }
