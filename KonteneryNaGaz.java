@@ -24,4 +24,9 @@ public class KonteneryNaGaz extends Kontener implements IHazardNotifier{
     public void hazardNotify(String wiadomosc) {
         System.out.println(wiadomosc);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
